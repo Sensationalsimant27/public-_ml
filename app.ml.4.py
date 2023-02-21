@@ -2,12 +2,13 @@
 
 import pickle
 import streamlit as st
-from streamlit_option_menu import option_menu  
+from streamlit_option_menu import option_menu
+import option_menu
 
 import pandas as pd
 
 
-model = pickle.load(open("flight_rf.pkl", "rb"))
+model = pickle.load(open('flight_rf.pkl', 'rb'))
 
 
 
