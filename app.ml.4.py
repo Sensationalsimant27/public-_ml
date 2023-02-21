@@ -2,7 +2,7 @@
 
 import pickle
 import streamlit as st
-"/app/public-_ml/app.ml.4.py"
+from streamlit_option_menu import option_menu
 import option_menu
 
 import pandas as pd
