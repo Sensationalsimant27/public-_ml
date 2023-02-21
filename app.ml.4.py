@@ -8,7 +8,7 @@ import option_menu
 import pandas as pd
 
 
-model = pickle.load(open('flight_rf.pkl', 'rb'))
+model = pickle.load(open("flight_rf.pkl", "rb"))
 
 
 
