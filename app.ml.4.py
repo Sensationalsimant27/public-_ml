@@ -6,7 +6,7 @@ import numpy as np
 import pandas as pd
 
 
-model=pickle.load(open("flight_rf.pkl","rb"))
+model=pickle.load(open('flight_rf.pkl','rb'))
 
 
 
